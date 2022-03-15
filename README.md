@@ -49,10 +49,10 @@ conda info --envs # prints the environments you have on yoda- select which ones 
 
 
 ### EXAMPLE: export the base environment
-mkdir yml_files
-conda activate base
-bsub -M 1200 -n 4 conda env export > yml_files/base.yml
-conda deactivate
+mkdir yml_files <br />
+conda activate base <br /> 
+bsub -M 1200 -n 4 conda env export > yml_files/base.yml <br />
+conda deactivate <br />
 
 ### Repeat the above 3 steps to export all the environments in yml files.
 
@@ -60,8 +60,8 @@ conda deactivate
 bsub -n 8 -q datamover "/hps/software/copytools/msrsync/msrsync -p 8 /nfs/yoda/leia/research/ma/YOURUSERNAME/yml_files /hps/software/users/ma/YOURUSERNAME
 
 ### build environments from yml files
-cd /hps/software/users/ma/YOURUSERNAME/
-conda env create -f yml_files/base.yml
+cd /hps/software/users/ma/YOURUSERNAME/ <br />
+conda env create -f yml_files/base.yml <br />
 
 ### check your environment
 conda activate base

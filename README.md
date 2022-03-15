@@ -57,7 +57,7 @@ conda deactivate <br />
 ### Repeat the above 3 steps to export all the environments in yml files.
 
 ### move the yml files to codon 
-bsub -n 8 -q datamover "/hps/software/copytools/msrsync/msrsync -p 8 /nfs/yoda/leia/research/ma/YOURUSERNAME/yml_files /hps/software/users/ma/YOURUSERNAME
+bsub -n 8 -q datamover "/hps/software/copytools/msrsync/msrsync -p 8 /nfs/yoda/leia/research/ma/YOURUSERNAME/yml_files /hps/software/users/ma/YOURUSERNAME/
 
 ### build environments from yml files
 cd /hps/software/users/ma/YOURUSERNAME/ <br />

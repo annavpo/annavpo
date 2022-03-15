@@ -1,8 +1,9 @@
-#CODON MIGRATION
+# CODON MIGRATION
 
-# login
+## login
 
-ssh codon-login  # add your credentials
+ssh codon-login  # use your credentials
+
 #set up your .bashrc and .bash_profile under /homes/YOURUSERNAME
 
 #Where to store data, where to work in codon
@@ -11,8 +12,8 @@ store important permanent data under /nfs/research/irene/YOURUSERNAME
 
 ##run jobs, store intermediate outputs that you dont need for long term here : /hps/nobackup/irene/ma/YOURUSERNAME
 
-cd /hps/nobackup/irene/ma
-mkdir YOURUSERNAME
+'''cd /hps/nobackup/irene/ma
+mkdir YOURUSERNAME'''
 
 
 ##install software, conda env etc here : /hps/software/users/ma/YOURUSERNAME

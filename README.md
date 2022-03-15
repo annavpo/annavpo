@@ -12,10 +12,10 @@ store important permanent data under /nfs/research/irene/YOURUSERNAME
 
 ##run jobs, store intermediate outputs that you dont need for long term here : /hps/nobackup/irene/ma/YOURUSERNAME
 
-'''cd /hps/nobackup/irene/ma
-mkdir YOURUSERNAME'''
-
-
+'''
+cd /hps/nobackup/irene/ma
+mkdir YOURUSERNAME
+'''
 ##install software, conda env etc here : /hps/software/users/ma/YOURUSERNAME
 
 cd /hps/software/users/ma/

@@ -12,17 +12,17 @@ store important permanent data under /nfs/research/irene/YOURUSERNAME
 
 ### run jobs, store intermediate outputs that you dont need for long term here : /hps/nobackup/irene/ma/YOURUSERNAME
 
-cd /hps/nobackup/irene/ma
-mkdir YOURUSERNAME
+cd /hps/nobackup/irene/ma <br /> 
+mkdir YOURUSERNAME <br /> 
 
 ### install software, conda env etc here : /hps/software/users/ma/YOURUSERNAME
 
-cd /hps/software/users/ma/
-mkdir YOURUSERNAME
+cd /hps/software/users/ma/ <br /> 
+mkdir YOURUSERNAME <br /> 
 
 
 ## How to move data from yoda to codon 
-navigate in codon:
+navigate in codon: 
 
 cd /nfs/research/irene/YOURUSERNAME
 
@@ -33,14 +33,14 @@ bsub -n 8 -q datamover "/hps/software/copytools/msrsync/msrsync -p 8 /nfs/yoda/l
 #the above command will use 8 cores, the datamover queue and it will move the whole directory YOURUSERNAME from yoda to codon. 
 
 
-## CONDA
-### install anaconda in codon
+## CONDA <br /> 
+### install anaconda in codon <br /> 
 
 Follow the instructions here : 
 To install conda download the installer script from https://docs.conda.io/en/latest/miniconda.html and follow the instructions
 https://conda.io/projects/conda/en/latest/user-guide/install/linux.html
 
-install Anaconda under : /hps/software/users/ma/YOURUSERNAME
+install Anaconda under : /hps/software/users/ma/YOURUSERNAME <br /> 
 Once anaconda is installed in codon go to yoda 
 
 ### export environments from yoda
@@ -64,7 +64,7 @@ cd /hps/software/users/ma/YOURUSERNAME/ <br />
 conda env create -f yml_files/base.yml <br />
 
 ### check your environment
-conda activate base
-conda list
+conda activate base <br /> 
+conda list <br /> 
 
 ### repeat for the other environments

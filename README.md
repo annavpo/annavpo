@@ -34,14 +34,14 @@ bsub -n 8 -q datamover "/hps/software/copytools/msrsync/msrsync -p 8 /nfs/yoda/l
 
 
 ## CONDA <br /> 
-### install anaconda in codon <br /> 
+### install minicinda instead of Annaconda (bacause it is lighter) in codon <br /> 
 
 Follow the instructions here : 
 To install conda download the installer script from https://docs.conda.io/en/latest/miniconda.html and follow the instructions
 https://conda.io/projects/conda/en/latest/user-guide/install/linux.html
 
-install Anaconda under : /hps/software/users/ma/YOURUSERNAME <br /> 
-Once anaconda is installed in codon go to yoda 
+install miniconda under : /hps/software/users/ma/YOURUSERNAME <br /> 
+Once miniconda is installed in codon go to yoda 
 
 ### export environments from yoda
 
